@@ -2,7 +2,7 @@
 import { RouterView } from 'vue-router';
 import Navbar from './components/Navbar.vue';
 import { useModal } from './composables/modal';
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 
 const modal = useModal()
 
